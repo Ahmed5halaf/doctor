@@ -2,7 +2,7 @@ import { FaArrowAltCircleUp } from "react-icons/fa";
 
 const Cart = ({ title, number, icon }) => {
   return (
-    <div className="bg-[#0B1739] mt-4 ml-6 flex flex-1 flex-col gap-6 px-3 py-2 rounded-2xl">
+    <div className="bg-[#0B1739] mt-4 ml-6 lg:flex flex-1 flex-col gap-6 px-3 py-2 rounded-2xl">
       <div className="flex justify-between">
         <div className="flex flex-col gap-3">
           <h3 className="text-[#86929E]">{title}</h3>

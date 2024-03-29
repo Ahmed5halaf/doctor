@@ -15,7 +15,7 @@ const List = () => {
     <div className="mt-4 py-4">
       {itemList.map((item) => (
         <div
-          className="grid grid-cols-5 items-center text-sm  grid-rows-2"
+          className="grid gap-4 grid-cols-5 items-center text-sm  grid-rows-2"
           key={item.id}
         >
           <div className="flex items-center gap-2">

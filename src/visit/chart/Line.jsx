@@ -32,7 +32,7 @@ const Line = () => {
   };
 
   return (
-    <div className="bg-[#0B1739]  rounded-lg absolute  w-[55%] z-1 right-[450px] shadow-md">
+    <div className="bg-[#0B1739]  rounded-lg lg:absolute  lg:w-[55%] z-1 lg:right-[450px] shadow-md">
       <div className="flex justify-between pt-4 px-6">
         <div>
           <h3 className="text-lg">Patient Visit</h3>

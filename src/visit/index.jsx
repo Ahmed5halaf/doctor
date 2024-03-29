@@ -14,7 +14,7 @@ const MainVisit = () => {
           <div className="pl-3">
             <h2 className="white text-xl">Overview</h2>
           </div>
-          <div className="flex">
+          <div className="flex flex-col lg:flex-row">
             <Cart
               title="Total Patients"
               number="401"

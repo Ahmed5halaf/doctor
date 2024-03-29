@@ -3,14 +3,14 @@ import MainVisit from "./visit/index";
 import InfoDoc from "./dataDoc/infoDoc/InfoDoc";
 function App() {
   return (
-    <div className="flex gap-2">
+    <div className="flex lg:flex-row flex-col gap-2">
       <div>
         <Sidebar />
       </div>
-      <div className="flex-1">
+      <div className="lg:flex-1">
         <MainVisit />
       </div>
-      <div className="flex-[.5]">
+      <div className="lg:flex-[.5]">
         <InfoDoc />
       </div>
     </div>

@@ -3,8 +3,8 @@ import { IoIosMic } from "react-icons/io";
 
 const BarSearch = () => {
   return (
-    <div className="flex gap-12 justify-between pt-6">
-      <div className="w-[60%]  pl-20 ">
+    <div className="flex md:flex-row flex-col gap-12 justify-center md:justify-between pt-6">
+      <div className="md:w-[60%]  lg:pl-20 px-8">
         <div className="bg-[#2d3448] px-4 py-2 rounded-md text-sm flex items-center">
           <BsSearch size={14} />
           <input
@@ -16,7 +16,7 @@ const BarSearch = () => {
           <IoIosMic size={18} />
         </div>
       </div>
-      <div className="flex bg-[#081028] ">
+      <div className="flex justify-center bg-[#081028] ">
         <div className="bg-transparent flex ">
           <select
             className=" text-sm cursor-pointer appearance-none focus:outline-none bg-[#081028] text-[#86929E] py-1 px-4 pr-8  leading-tight "

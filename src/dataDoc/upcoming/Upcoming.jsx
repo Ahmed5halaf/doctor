@@ -14,7 +14,7 @@ const Upcoming = () => {
         </div>
       </div>
       <div className="">
-        <h3 className="text-[#3371EB] after:absolute after:border-[#3371EB] after:border after:top-[53.5%] after:right-[20px] after:w-[18%]">
+        <h3 className="text-[#3371EB]  lg:after:absolute lg:after:border-[#3371EB] lg:after:border after:top-[53.5%] after:right-[20px] after:w-[18%]">
           July 30, 2022
         </h3>
       </div>
