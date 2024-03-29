@@ -56,7 +56,7 @@ const MyPieChart = () => {
   return (
     <div>
       <h2 className="text-lg">Patient Satisfaction</h2>
-      <div className="relative ">
+      <div className="lg:relative ">
         <ReactECharts
           option={option}
           style={{
